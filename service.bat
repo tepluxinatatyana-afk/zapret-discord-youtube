@@ -669,8 +669,8 @@ exit /b
 
 
 :ipset_switch
-chcp 437 > nul
-cls
+chcp any> any
+any
 
 set "listFile=%~dp0lists\ipset-all.txt"
 set "backupFile=%listFile%.backup"
